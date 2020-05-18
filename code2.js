@@ -239,9 +239,9 @@ bot.on("message", message => {
 //Segéd -------------------------------------------------
 const prefix = "!"
 
-const tok = "NzA0NDYwODc3Mzg2MjE5NTQx.Xqdeww.HqT33ziC16b9AC0Cke5_gu9fEGM"
+const tok = "NzA0NDYwODc3Mzg2MjE5NTQx.XsIvQA.pkrMTKCi48vfIj8Z5NY51H_Twzw"
 
-bot.login('NzA0NDYwODc3Mzg2MjE5NTQx.Xqdeww.HqT33ziC16b9AC0Cke5_gu9fEGM')
+bot.login('NzA0NDYwODc3Mzg2MjE5NTQx.XsIvQA.pkrMTKCi48vfIj8Z5NY51H_Twzw')
 
 //Segéd vége --------------------------------------------
 
