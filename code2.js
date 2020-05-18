@@ -240,7 +240,6 @@ bot.on("message", message => {
 const prefix = "!"
 
 const tok = process.env.token;
-
 bot.login(tok).catch(err => console.log(err));
 
 //Segéd vége --------------------------------------------
