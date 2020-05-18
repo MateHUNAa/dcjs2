@@ -239,9 +239,9 @@ bot.on("message", message => {
 //Segéd -------------------------------------------------
 const prefix = "!"
 
-const tok = "NzA0NDYwODc3Mzg2MjE5NTQx.XsIvQA.pkrMTKCi48vfIj8Z5NY51H_Twzw"
+const tok = process.env.token;
 
-bot.login('NzA0NDYwODc3Mzg2MjE5NTQx.XsIvQA.pkrMTKCi48vfIj8Z5NY51H_Twzw')
+bot.login(tok).catch(err => console.log(err));
 
 //Segéd vége --------------------------------------------
 
